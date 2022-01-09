@@ -1,0 +1,5 @@
+临时性修改编码
+使用 chcp 命令，例如 chcp 65001 ，这回将当前代码页变为 utf-8编码，不过这种方式在关闭 cmd 之后会自动失效。
+
+
+javac -encoding utf8 HelloWorld.java
